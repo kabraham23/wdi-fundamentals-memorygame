@@ -9,6 +9,6 @@ const queensSchema = new Schema({
 
 // Model from Schema
 const Queen = mongoose.model('Queen', queensSchema);
-
+ 
 // Export
 module.exports = Queen;
